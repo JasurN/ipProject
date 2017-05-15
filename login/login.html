@@ -1,0 +1,36 @@
+﻿<?php
+include('login.php'); // Includes Login Script
+
+if(isset($_SESSION['login_user'])){
+header("location: profile.php");
+}
+?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add New Post
+    </title>
+    <link rel="stylesheet" type="text/css" href="../Shared styles/form-styles.css" />
+    <link rel="stylesheet" type="text/css" href="login-styles.css" />
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript" src="login.js"></script>
+</head>
+
+<body>
+    <div id="info-area">
+        <form id="login-form" action="login_logic.php" method="post">
+            <fieldset>
+                <h1 style="text-align: center;">Login</h1>
+                <input class="input-field" name="username" id="username" type="text" placeholder="Username"/>
+                <input class="input-field" name="password" id="password" type="password" placeholder="Password" />
+                <div id="buttons">
+                    <input type="submit" name="login" class="submit action-button" value="Login" />
+                    <input type="button" name="add-photo" class="action-button" value="Register" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>

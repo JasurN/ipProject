@@ -1,0 +1,37 @@
+﻿body {
+    background-color: gold;
+}
+
+#login-form {
+    width: 310px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0px black;
+    padding-top: 10px;
+    margin-top: 60px;
+    z-index:10;
+    display:block;
+}
+
+.input-field
+{
+    margin-left: 50px;
+}
+
+#buttons{
+    margin:auto;
+    width: 210px;
+    margin-bottom:20px;
+}
+
+.action-button{
+    margin:auto
+}
+
+fieldset
+{
+    border:none;
+    width: 300px;
+    margin:auto
+}

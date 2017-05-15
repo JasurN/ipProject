@@ -1,0 +1,18 @@
+.post-info
+{
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  float: left;
+  margin: 10px;
+}
+
+.short-info
+{
+  width: 100%;
+  background-color: grey;
+  float: left;
+  box-shadow: inset 0px 0px 15px 1px black;
+  overflow:hidden;
+}
+

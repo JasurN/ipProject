@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title></title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+	    <link href="style.css" rel="stylesheet"/>
+		<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+	    <link rel="stylesheet" type="text/css" href="css/general.css">
+	    <link rel="stylesheet" type="text/css" href="css/desc.css">
+	</head>
+	<body>
+		<div id="top">
+			<form>
+				<div id="search">
+					<input type="text" name="search" class="top-text">
+					<button type="submit" name="button" title="Search" class="seaarchButton" id="inputButton">
+						<img src="img/searchIcon.png">
+					</button>
+				</div>
+			</form>
+			<form>
+				<div id="search">
+					<input type="text" name="search" class="top-text">
+					<button type="submit" name="button" title="Search" class="seaarchButton" id="inputButton">
+						<img src="img/locationIcon.png">
+					</button>
+				</div>
+			</form>
+			<div style="position: absolute; margin: 10px 0 0 750px; ">
+				<a href="search.html"><span style="text-decoration: none; color: #00008B">Advanced Search</span></a>
+			</div>
+			<div class="navbar">
+	  			<div class="navbar-inner-special zeros">
+					<div class="container-special">
+						<div class="nav-collapse">
+							<ul class="nav pull-right">
+								<li class="dropdown">
+									<a data-toggle="dropdown" class="dropdown-toggle a-special" href="#"><span class="icon-lock"></span> Sign in <b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<form class="form-horizontal loginFrm">
+				  							<div class="control-group">
+												<input type="email" class="span2" id="inputEmail" placeholder="Email" required>
+				  							</div>
+				  							<div class="control-group">
+												<input type="password" class="span2" id="inputPassword" placeholder="Password" required>
+				  							</div>
+				  							<div class="rel">
+				  								<a href="forget_password.html"><span class="marginleft10 margintop10" style="font-size: 15px;">Forget your password?</span></a>
+				  							</div>
+				  							<div class="rel marginleft35">
+				  								<a href="register.html"><span class="marginleft10 margintop10" style="font-size: 15px;">No Account?</span></a>
+				  							</div>
+				  							<div class="control-group">
+												<label class="checkbox">
+													<input type="checkbox"> Remember me
+												</label>
+												<button type="submit" class="shopBtn btn-block">Sign in</button>
+				  							</div>
+										</form>
+									</div>
+									<a class="dropdown-toggle a-special" id="signin" href="#" style="display: none"><span class="icon-lock"></span> Sign out <b class="caret"></b></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+	  			</div>
+			</div>
+		</div>
+
+<!--
+Lower Header Section 
+-->
+<div class="container">
+<div id="gototop margintop10"> </div>
+<!--
+Navigation Bar Section 
+-->
+<div class="navbar">
+	  <div class="navbar-inner">
+	  </div>
+	</div>
+<!-- 
+Body Section 
+-->
+	<div class="row">
+	<div class="span9">
+    <ul class="breadcrumb">
+    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+    <li><a href="products.html">Items</a> <span class="divider">/</span></li>
+    <li class="active">Preview</li>
+    </ul>	
+	<div class="well well-small tbor">
+	<div class="row-fluid">
+		<div class="marginleft50">
+			<div id="myCarousel" class="carousel slide cntr">
+                <div class="carousel-inner">
+                  <div class="item active">
+                   <a href="#"> <img src="assets/img/a.jpg" alt="" style="width:90%; height:500px;"></a>
+                  </div>
+                  <div class="item">
+                     <a href="#"> <img src="assets/img/b.jpg" alt="" style="width:90%; height:500px;"></a>
+                  </div>
+                  <div class="item">
+                    <a href="#"> <img src="assets/img/e.jpg" alt="" style="width:90%; height:500px;"></a>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+            </div>
+		</div>
+	</div>
+				<hr class="softn clr"/>
+
+
+            <ul id="productDetail" class="nav nav-tabs">
+              <li class="active"><a href="#home" data-toggle="tab">Product Details</a></li>
+              <!-- Here we should put screenshots! -->
+              <li class=""><a href="#screenshots" data-toggle="tab">Product Screenshots</a></li>
+              <li class=""><a href="#profile" data-toggle="tab">Related Products </a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content tabWrapper">
+            <div class="tab-pane fade active in rel" id="home">
+			  <h4>Product Information</h4>
+                <table class="table table-striped">
+				<tbody>
+				<tr class="techSpecRow"><td class="techSpecTD1">Product:</td><td class="techSpecTD2">Samsung</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Model:</td><td class="techSpecTD2">Galaxy</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Brand:</td><td class="techSpecTD2">Galaxy S7</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Condition:</td><td class="techSpecTD2">Good</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Year:</td><td class="techSpecTD2">2015</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">:</td><td class="techSpecTD2">Shock Absorber</td></tr>
+				</tbody>
+				</table>
+				<div class="offer-titlebox__details margintop7">
+					<a class="show-map-link" href>
+						<strong>Ташкент, Ташкентская область, Юнусабадский район</strong>
+					</a>
+					<em>" Добавлено в 12:52, 27 апреля 2017, "
+						<small>Номер объявления: 9143240</small>
+					</em>
+				</div>
+				<div class="rel">
+				<br><br>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p><br>
+				</div>
+				
+			</div>
+			<div class="margintop10 rel">
+				<div class="pdingbott10 small">
+					<a href="#" class="fright inlblk">
+						<span class="link inlblk large" style="font-size: 20px">
+							<span>Next advertisment</span>
+						</span>
+						<i data-icon="raquo" class="vmiddle large marginleft5 lheight14"></i>
+					</a>
+					<a href="#" class="fleft inlblk">
+						<span class="link inlblk" style="font-size: 20px">
+							<span>Back</span>
+						</span>
+						<i data-icon="raquo" class="vmiddle large marginright5 lheight14"></i>
+					</a>
+				</div>
+				<div class="margintop20 pdingtop10 brtop-1 rel zi5">
+					<div class="fleft marginright5"></div>
+				</div>
+				<div class="pdingtop10 marginleft20">
+					Views: <strong>629</strong>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="profile">
+			<div class="row-fluid">	  
+			<div class="span2">
+				<img src="assets/img/d.jpg" alt="">
+			</div>
+			<div class="span6">
+				<h5>Product Name </h5>
+				<p>
+				Nowadays the lingerie industry is one of the most successful business spheres.
+				We always stay in touch with the latest fashion tendencies - 
+				that is why our goods are so popular..
+				</p>
+			</div>
+			<div class="span4 alignR">
+			<form class="form-horizontal qtyFrm">
+			<h3> $140.00</h3>
+			<label class="checkbox">
+				<input type="checkbox">  Adds product to compair
+			</label><br>
+			<div class="btn-group">
+			  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+			  <a href="product_details.html" class="shopBtn">VIEW</a>
+			 </div>
+				</form>
+			</div>
+		</div>
+			<hr class="soft">
+			<div class="row-fluid">	  
+			<div class="span2">
+				<img src="assets/img/d.jpg" alt="">
+			</div>
+			<div class="span6">
+				<h5>Product Name </h5>
+				<p>
+				Nowadays the lingerie industry is one of the most successful business spheres.
+				We always stay in touch with the latest fashion tendencies - 
+				that is why our goods are so popular..
+				</p>
+			</div>
+			<div class="span4 alignR">
+			<form class="form-horizontal qtyFrm">
+			<h3> $140.00</h3>
+			<label class="checkbox">
+				<input type="checkbox">  Adds product to compair
+			</label><br>
+			<div class="btn-group">
+			  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+			  <a href="product_details.html" class="shopBtn">VIEW</a>
+			 </div>
+				</form>
+			</div>
+	</div>
+			<hr class="soft"/>
+			<div class="row-fluid">	  
+			<div class="span2">
+				<img src="assets/img/d.jpg" alt="">
+			</div>
+			<div class="span6">
+				<h5>Product Name </h5>
+				<p>
+				Nowadays the lingerie industry is one of the most successful business spheres.
+				We always stay in touch with the latest fashion tendencies - 
+				that is why our goods are so popular..
+				</p>
+			</div>
+			<div class="span4 alignR">
+			<form class="form-horizontal qtyFrm">
+			<h3> $140.00</h3>
+			<label class="checkbox">
+				<input type="checkbox">  Adds product to compair
+			</label><br>
+			<div class="btn-group">
+			  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+			  <a href="product_details.html" class="shopBtn">VIEW</a>
+			 </div>
+				</form>
+			</div>
+	</div>
+			<hr class="soft"/>
+			<div class="row-fluid">	  
+					<div class="span2">
+						<img src="assets/img/d.jpg" alt="">
+					</div>
+					<div class="span6">
+						<h5>Product Name </h5>
+						<p>
+						Nowadays the lingerie industry is one of the most successful business spheres.
+						We always stay in touch with the latest fashion tendencies - 
+						that is why our goods are so popular..
+						</p>
+					</div>
+					<div class="span4 alignR">
+					<form class="form-horizontal qtyFrm">
+					<h3> $140.00</h3>
+					<label class="checkbox">
+						<input type="checkbox">  Adds product to compair
+					</label><br>
+					<div class="btn-group">
+					  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+					  <a href="product_details.html" class="shopBtn">VIEW</a>
+					 </div>
+						</form>
+					</div>
+			</div>
+				<hr class="soften"/>
+					<div class="row-fluid">	  
+						<div class="span2">
+							<img src="assets/img/d.jpg" alt="">
+						</div>
+						<div class="span6">
+							<h5>Product Name </h5>
+							<p>
+							Nowadays the lingerie industry is one of the most successful business spheres.
+							We always stay in touch with the latest fashion tendencies - 
+							that is why our goods are so popular..
+							</p>
+						</div>
+						<div class="span4 alignR">
+							<form class="form-horizontal qtyFrm">
+								<h3> $140.00</h3>
+								<label class="checkbox">
+									<input type="checkbox">  Adds product to compair
+								</label><br>
+								<div class="btn-group">
+									<a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+									<a href="product_details.html" class="shopBtn">VIEW</a>
+					 			</div>
+							</form>
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+		<div class="offercontentinner margintop7 offer__innerbox">
+			<form enctype="" class="quickcontact" id="" action="#" novalidate="novalidate">
+				<fieldset>
+					<h3 class="x-large fbold marginleft20">Contact with ad publisher</h3>
+						<div class="inner rel">
+							<div class="fblock clr">
+								<ul id="contact-method-below" class="form">
+									<li class="link-phone margintop10 {'path':'phone',
+									 'id':'Cmzc', 'id-raw': '9143240'}" data-rel="phone">
+										<div class="fleft rel">
+											<!-- Here should be icon!!! -->
+											<span class="marginleft50 icon vtop inlblk mobile2 cpointer">&nbsp</span>
+										</div>
+										<div class="overh fleft marginleft10 brkword contactitem">
+											<strong class="fnormal xx-large cpointer">99x xx xxxxx</strong>
+											<span class="link spoiler small nowrap">
+												<span class="cpointer">Show</span>
+											</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="fblock marginbot10 clr">
+								<div class="fleft rel">
+									<span class="inlblk rel">
+										<input type="text" title="Provide Email or Phone" name="contact[email-phone]"
+											placeholder="Provide Email or Phone" class="light br3 xx-long x-normal" id="ask-email">
+									</span>
+								</div>
+							</div>
+							<div class="fblock clr">
+								<div class="fleft rel">
+									<span class="inlblk rel">
+										<textarea title="Your text..." placeholder="Your text..." id="ask-test" class="light lheight18 br3 x-normal comment-text-area" name="contact[txt]" data-jq-watermark="processed" style="resize: none; overflow-y: hidden; height: 120px;"></textarea>
+									</span>
+								</div>
+							</div>
+							<div class="fblock clr rel pdingbott50">
+								<div class="fleft">
+									<!-- Here should be uploading files -->
+								</div>
+								<span class="margintop20 button br3 large fright send3 rel" style="margin: 20px;">
+									<button class="btn icon-envelope"><span style="margin: 0 -15px 0 -13px ; padding: 30px; font-size: 20px">Send</span></button>
+								</span>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="offer-sidebar right-fixed">
+			<div class="offer-sidebar__inner offeractions" style="top: 0px; left: 761px;">
+				<div class="price-label">
+					<strong class="xxxx-large">600 000 сум</strong>
+				</div>
+				<div class="tcenter marginbot10">
+					
+				</div>
+				<ul class="offer-sidebar__buttons">
+					<li>
+						<a href="#" class="contact-button button-email {'id_raw': '9143240'} atClickTracking" style="text-decoration: none">
+							<span class=" rel brkword wcolor" style="margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;">
+								Write to the Publisher</span>
+						</a>
+					</li>
+					<li class="contact-button link-phone {'path':'phone', 'id':'Cmzc', 'id-raw': '9143240'} atClickTracking contact-a">
+						<strong class="xx-large">998 97 999 75 07</strong>
+					</li>
+				</ul>
+				<div class="offer-sidebar__box">
+					<div class="offer-user__details">
+						<h4>
+							<a href="#">Abdurahmon</a>
+						</h4>
+						<span class="user-since">With Bulbo since Sept. 2015</span>
+						<a href="#" class="user-offers">All publishes of user</a>
+					</div>
+				</div>
+				<div class="offer-sidebar__links">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+		<div class="copyright">
+			<div class="container">
+				<p class="pull-right">
+					<a href="#"><img src="assets/img/maestro.png" alt="payment"></a>
+					<a href="#"><img src="assets/img/mc.png" alt="payment"></a>
+					<a href="#"><img src="assets/img/pp.png" alt="payment"></a>
+					<a href="#"><img src="assets/img/visa.png" alt="payment"></a>
+					<a href="#"><img src="assets/img/disc.png" alt="payment"></a>
+				</p>
+				<span>Copyright &copy; 2017<br>IUT Students Publishers Inc.</span>
+			</div>
+		</div>
+		<a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>
+	    <!-- Placed at the end of the document so the pages load faster -->
+	    <script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.easing-1.3.min.js"></script>
+	    <script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	    <script src="assets/js/shop.js"></script>
+	</body>
+</html>
